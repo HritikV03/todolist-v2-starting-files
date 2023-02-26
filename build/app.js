@@ -12,7 +12,7 @@ app.use(express.static("public"));
 mongoose.set("strictQuery", false);
 
 mongoose.connect("mongodb+srv://vermahritik115:Hritik9111796669@cluster0.fy7okon.mongodb.net/todolistDB", {
-  useNewUrlParser: true,
+  useNewUrlParser: true
 });
 
 const itemsSchema = {
